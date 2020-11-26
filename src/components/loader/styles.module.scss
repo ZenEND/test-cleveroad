@@ -1,0 +1,26 @@
+.loader {
+  position: relative;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.component {
+  transition: opacity 0.15s;
+}
+
+.isLoading {
+  & .component {
+    opacity: 0.5;
+    user-select: none;
+    pointer-events: none;
+  }
+}
+
+.spinner {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}

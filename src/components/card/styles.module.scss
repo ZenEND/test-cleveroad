@@ -1,0 +1,11 @@
+.card{
+  width: 240px;
+  height: max-content;
+}
+
+.description{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

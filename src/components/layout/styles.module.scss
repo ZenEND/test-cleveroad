@@ -1,0 +1,23 @@
+.content{
+  padding: 24px;
+  margin: 0;
+}
+
+.layout-content{
+  padding: 0 24px 24px
+}
+.layout{
+  min-height: 100vh;
+}
+
+.external-layout{
+  max-width: 500px;
+  min-height: 100vh;
+  margin: auto;
+}
+
+.external-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
